@@ -5,28 +5,118 @@
     margin: 0;
 }
 
+/* all a elements default  */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 /* Body  */
 body {
     background-color: #d9dcd6;
 }
 
+/* Aside sections styling that contains benefits class  */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Benefit-Lead classes styling */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* benefit-brand classes styling */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* benefit-cost classes styling */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Class content styling */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Floating the main and aside elements to each side of their page */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Footer classes styling */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+.footer h2 {
+    font-size: 20px;
+}
+
 /* Header styling */
 header {
-    padding: 20px;
+    padding: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
 header h1 .seo {
     color: #d9dcd6;
 }
-
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -34,25 +124,12 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
 header nav ul {
     list-style-type: none;
 }
-
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
-}
-
-/* all a elements default  */
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/* all p elements default  */
-p {
-    font-size: 16px;
 }
 
 /* styling for the company image on the front page */
@@ -65,93 +142,7 @@ p {
     background-position: center;
 }
 
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-/* Aside sections styling that contains benefits classes  */
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*  Main element Styling with different marketing sections */
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
+/* online reputation styling */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +151,37 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+.online-reputation-management img {
+    max-height: 200px;
+}
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 
+/* all p elements default  */
+p {
+    font-size: 16px;
+}
+
+/*  Search enging optimization styling*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.search-engine-optimization img {
+    max-height: 200px;
+}
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Social media marketing styling */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -169,44 +190,10 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
 .social-media-marketing img {
     max-height: 200px;
 }
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
-
-/* Footer classes styling */
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-.footer h2 {
-    font-size: 20px;
 }
