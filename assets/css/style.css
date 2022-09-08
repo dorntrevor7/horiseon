@@ -1,13 +1,16 @@
+/* All */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Body  */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header styling */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,15 +44,18 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* all a elements default  */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* all p elements default  */
 p {
     font-size: 16px;
 }
 
+/* styling for the company image on the front page */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +64,7 @@ p {
     background-size: cover;
     background-position: center;
 }
+
 
 .float-left {
     float: left;
@@ -75,6 +82,7 @@ p {
     margin-left: 20px;
 }
 
+/* Aside sections styling that contains benefits classes  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -134,6 +142,7 @@ p {
     max-width: 150px;
 }
 
+/*  Main element Styling with different marketing sections */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -188,6 +197,7 @@ p {
     font-size: 36px;
 }
 
+/* Footer classes styling */
 .footer {
     padding: 30px;
     clear: both;
